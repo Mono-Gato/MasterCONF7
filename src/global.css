@@ -1,0 +1,13 @@
+:root{
+    --Headlines: font-family: 'Krona One', sans-serif;
+    --Paragraph: font-family: 'Lato', sans-serif;
+
+    --principalColor: #98CA3F;
+    --secondaryColor: #121F3D;
+    --secondaryVariationColor: #03091E;
+    --grayDarkColor: #444444;
+    --grayLightColor: #FCFCFC;
+
+    font-size: 62.5%;
+    
+}

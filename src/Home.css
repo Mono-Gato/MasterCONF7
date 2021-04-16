@@ -394,3 +394,33 @@ main{
     
 }
 /*End codeConduct*/
+/*Start Sponsors*/
+.sponsors{
+    margin-top: 40px;
+    padding: 0 20px;
+}
+.sponsors__headline h2{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: var(--Headlines);
+    color: var(--secondaryColor);
+}
+.sponsors__headline hr{
+    width: 14.5% ;
+    margin: 10px auto;
+    height: 6px;
+    background-color: var(--secondaryColor);
+}
+.sponsors__container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.sponsors__container .sponsor{
+    width: 250px;
+    height: 50px;
+    background-color: var(--grayDarkColor);   
+}
+/*End Sponsors*/

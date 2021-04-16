@@ -328,8 +328,69 @@ main{
     box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.3);
     transform: scale(1.02);
 }
-
-
 /*End Features Styles*/
-/*Start ConductCode Styles*/
-/*End ConductCode*/
+/*Start codeConduct Styles*/
+.codeConduct{
+    margin-top: 40px;
+}
+.codeConduct__headline h2{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: var(--Headlines);
+    color: var(--secondaryColor);
+}
+.codeConduct__headline hr{
+    width: 14.5% ;
+    margin: 10px auto;
+    height: 6px;
+    background-color: var(--secondaryColor);
+}
+.codeConduct__container{
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+    padding: 40px 20px;
+    background-image: url('./img/home/ConductCode-pexels-matheus-bertelli-3856033-min.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.codeConduct__container p{
+    color: var(--grayLightColor);
+    text-align: center;
+    font-size: 2rem;
+    max-width: 1000px;
+    display: block;
+
+}
+.codeConduct__button{
+    background-color: var(--principalColor);
+    font-family: var(--Headlines);
+    font-size: 1.8rem;
+    color: var(--grayLightColor);
+    padding: 10px 35px;
+    position: relative;
+    z-index: 1;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    border: 6px solid var(--grayLightColor);
+    box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    transition: .5s all;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    max-width: 300px;
+}
+.codeConduct__button:hover{
+    background-color: var(--grayLightColor);
+    color: var(--principalColor);
+    border-color: var(--principalColor);
+    
+}
+/*End codeConduct*/

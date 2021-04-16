@@ -33,7 +33,7 @@ body{
     background-color: var(--principalColor);
     mix-blend-mode: multiply;
     position: fixed;
-    z-index: 0;
+    z-index: 5;
 }
 .header {
 	/*  background-color: var(--principalColor);*/
@@ -42,9 +42,11 @@ body{
 	height: 65px;
 	position: fixed;
 	z-index: 99;
+
+	box-shadow: rgb(0 0 0 / 25%) 0px 4px 10px 0px;
 }
 .header .container{
-	padding: 0 20px;
+	padding: 0 30px;
 }
 .header .header__logo {
 	height: 40px;

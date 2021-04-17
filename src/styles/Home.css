@@ -404,7 +404,7 @@ main{
 .codeConduct__container p{
     color: var(--grayLightColor);
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.35rem;
     max-width: 1000px;
     display: block;
 }
@@ -472,7 +472,9 @@ main{
 .sponsors__container .sponsor{
     width: 250px;
     height: 50px;
-    background-color: var(--grayDarkColor);   
+    background-color: var(--grayDarkColor);  
+    display: flex;
+    justify-content: center; 
 }
 /*End Sponsors*/
 /*Start DataReminder*/
@@ -487,12 +489,14 @@ main{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 20px;
     margin-top: -108.5px;
     margin-bottom: 50px;
@@ -523,6 +527,10 @@ main{
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
+    justify-self: center;
 }
 .dataReminder__button{
     font-family: var(--Headlines);
@@ -531,8 +539,10 @@ main{
     padding: 20px ;
     text-decoration: none;
     background-image: url('../img/general/ticket.svg');
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: left;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
     background-repeat: no-repeat;
     -webkit-transition: .5s all;
     -o-transition: .5s all;

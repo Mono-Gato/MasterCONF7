@@ -215,7 +215,7 @@
         const API = "https://masterconf.herokuapp.com/"
         const description = document.querySelector('#description')
         fetch(API)
-            .then(response =>.json())
+            .then(response => response.json())
             .then(data =>{
                 description.innerHTML =`<h1>${data.body.description}</h1>`
                 console.log(data)

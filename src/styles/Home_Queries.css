@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media screen and (max-width: 1370px) {
     .hero .hero__logo{
         max-width: 480px;
@@ -188,7 +195,10 @@
         height: 38px;
     }
     .features__container{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 0px 25px;
     }
     .features__container--anchor:nth-child(1){
@@ -209,12 +219,17 @@
         font-size: 1.6rem;
     }
     .dataReminder{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 20px 40px;
         gap: 5px;
     }
     .dataReminder hr{
-        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+                transform: rotate(90deg);
     }
     .dataReminder__button{
         font-size: 1.9rem;
@@ -227,7 +242,10 @@
         line-height: calc(1.8rem + 20%);
     }
     .hero__date--description{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 0px 20px;
     }
     .hero__date--description svg{
@@ -298,9 +316,16 @@
         min-width: 320px;
     }
     .dataReminder__date, .dataReminder__location, .dataReminder__button{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         text-align: center;
     }
     

@@ -36,9 +36,9 @@
                         <use xlink:href="./img/general/logo-platzi.svg#logo-platzi"></use>
                     </svg>
                 </div>
-                <div class="hero__text">
+                <div class="hero__text" id="description">
                     <h1>
-                        The event to celebrate all the people who build the internet. For those who design, program, write and make the world a reality that for years was the refuge of many and today the home of all.
+                        FAKE The event to celebrate all the people who build the internet. For those who design, program, write and make the world a reality that for years was the refuge of many and today the home of all.
                     </h1>
                 </div>
         </div>
@@ -210,5 +210,16 @@
         </div>
         <h6 class="footer__copyright">© All Rights Reserved - Platzi Master Cohort 7</h6>
     </footer>
+    <script>
+        //prueba data api
+        const API = "https://masterconf.herokuapp.com/"
+        const description = document.querySelector('#description')
+        fetch(API)
+            .then(response =>.json())
+            .then(data =>{
+                description.innerHTML =`<h1>${data.body.description}</h1>`
+                console.log(data)
+            })
+    </script>
 </body>
 </html>

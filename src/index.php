@@ -1,3 +1,3 @@
 <?php
-require 'src/index.html';
+require 'index.html';
 ?>

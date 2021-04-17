@@ -17,7 +17,7 @@
 }
 /*Start hero Styles*/
 .hero {
-	background-image: url('./img/home/Hero_headway-F2KRf_QfCqw-unsplash-min.jpg');
+	background-image: url('../img/home/Hero_headway-F2KRf_QfCqw-unsplash-min.jpg');
 	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -311,14 +311,14 @@ main{
 
 .features__container--anchor:nth-child(1){
     border-bottom-left-radius: 50px;
-    background-image: url('./img/home/Location-the-climate-reality-project-Hb6uWq0i4MI-unsplash-min.jpg');
+    background-image: url('../img/home/Location-the-climate-reality-project-Hb6uWq0i4MI-unsplash-min.jpg');
 }
 .features__container--anchor:nth-child(2){
-    background-image: url('./img/home/Food-aleks-marinkovic--dlVOoZSYf0-unsplash-min.jpg');
+    background-image: url('../img/home/Food-aleks-marinkovic--dlVOoZSYf0-unsplash-min.jpg');
 }
 .features__container--anchor:nth-child(3){
     border-top-right-radius: 50px;
-    background-image: url('./img/home/Hotel-viviana-rishe-eOGM2kJOJMk-unsplash-min.jpg');
+    background-image: url('../img/home/Hotel-viviana-rishe-eOGM2kJOJMk-unsplash-min.jpg');
 
 }
 .features__container--anchor:nth-child(3) span{
@@ -352,7 +352,7 @@ main{
     height: 350px;
     margin-top: 40px;
     padding: 40px 20px;
-    background-image: url('./img/home/ConductCode-pexels-matheus-bertelli-3856033-min.jpg');
+    background-image: url('../img/home/ConductCode-pexels-matheus-bertelli-3856033-min.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -470,14 +470,14 @@ main{
     font-size: 2rem;
     padding: 20px ;
     text-decoration: none;
-    background-image: url('./img/general/ticket.svg');
+    background-image: url('../img/general/ticket.svg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     transition: .5s all;
 }
 .dataReminder__button:hover{
-    background-image: url('./img/general/ticket-white.svg');
+    background-image: url('../img/general/ticket-white.svg');
     color: var(--principalColor);
     transform: scale(1.025);
 

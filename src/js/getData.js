@@ -9,6 +9,6 @@ const getData = async (endpoint) => {
     } catch (error) {
         console.log("Fetch Error", error)
     }
-}
+};
 
-export default getData
+export default getData;

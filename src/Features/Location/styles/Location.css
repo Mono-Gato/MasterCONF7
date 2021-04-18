@@ -1,0 +1,227 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+    --Headlines: 'Krona One', sans-serif;
+    --Paragraph:  'Lato', sans-serif;
+	--principalColor: #98CA3F;
+	--secondaryColor: #121F3D;
+	--secondaryVariationColor: #03091E;
+	--grayDarkColor: #444444;
+	--grayLightColor: #FCFCFC;
+	font-size: 62.5%;
+}
+.hero {
+	background-image: url('../../../img/features/Location-min.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	border-bottom-left-radius: 120px;
+	border-bottom-right-radius: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 8px solid var(--principalColor);
+}
+
+.hero .container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 20px;
+}
+
+.hero__hashtag{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+.hero__hashtag .hashtag{
+    color: var(--grayLightColor);
+}
+.hero__title h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: var(--Headlines);
+    font-weight: 400;
+    color: var(--grayLightColor);
+}
+.hero__title hr{
+    width: 25% ;
+    margin: 10px auto;
+    height: 6px;
+    background-color: var(--grayLightColor);
+}
+.buttonContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -35px;
+}
+.principalButton{
+    background-color: var(--principalColor);
+    font-family: var(--Headlines);
+    font-size: 2rem;
+    color: var(--grayLightColor);
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-decoration: none;
+    border: 6px solid var(--grayLightColor);
+    -webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    -webkit-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+}
+.principalButton svg{
+    width: 28px;
+    height: 30px;
+    fill: var(--grayLightColor);
+    margin-right: 10px;
+}
+.principalButton:hover{
+    background-color: var(--grayLightColor);
+    color: var(--principalColor);
+    border-color: var(--principalColor);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.principalButton:hover svg{
+    fill: var(--principalColor);
+}
+.location{
+    margin-top: 50px ;
+}
+.location__container--map{
+    padding: 0 30px;
+    position: relative;
+}
+.location__container--map iframe{
+    width: 100%;
+    height: 400px;
+    border: 6px solid var(--principalColor);
+    position: relative;
+}
+.location__container--info{
+    background-color: var(--secondaryColor);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px ;
+    -webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px 35px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    
+    position: relative ;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: 45px;
+    margin-top: -350px;
+    -webkit-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+}
+.location__container--info:hover{
+    -webkit-transform: scale(1.025);
+        -ms-transform: scale(1.025);
+            transform: scale(1.025);
+}
+
+.info__title h3{
+    color: var(--grayLightColor);
+    font-family: var(--Headlines);
+    font-weight: 400;
+    font-size: 2.25rem;
+    text-align: center;
+}
+.info__title hr{
+    height: 2px;
+    width: 25%;
+    background-color: var(--grayLightColor);
+    margin: 10px auto;
+}
+.info__paragraph{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.info__paragraph p{
+    color: var(--grayLightColor);
+    font-weight: 300;
+    font-size: 2.25rem ;
+    text-align: center;
+}
+.footer{
+    margin-top: 50px;
+}

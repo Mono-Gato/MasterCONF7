@@ -10,3 +10,5 @@ const getData = async (endpoint) => {
         console.log("Fetch Error", error)
     }
 }
+
+export default getData

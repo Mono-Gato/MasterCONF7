@@ -10,6 +10,11 @@
         font-size: 3rem;
     }
 }
+@media screen and (min-width: 1155px){
+    .hero {
+        background-image: url('../../../img/features/2x-Location-min.jpg');
+    }
+}
 @media screen and (max-width: 1155px){
     .info__title h3, .info__paragraph p{
         font-size: 2rem;

@@ -479,6 +479,9 @@ main{
         -ms-flex-pack: center;
             justify-content: center; 
 }
+.sponsors__container .sponsor img{
+    max-height: -webkit-fill-available;
+}
 /*End Sponsors*/
 /*Start DataReminder*/
 .dataReminder{

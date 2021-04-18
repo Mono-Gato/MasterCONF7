@@ -24,10 +24,10 @@ const Location = async ()=>{
     if ( dataLocation.status === 200 ) {
        //MAP
         const url_MAP = dataLocation.body[0].maps_location
-      
+
         mapLocation.innerHTML = `
         <iframe  src="${url_MAP}"   allowfullscreen="" loading="lazy"></iframe>`
-
+        
         //INFO
         nameLocation.innerHTML = `
         <p>
@@ -47,7 +47,6 @@ const Location = async ()=>{
             ${dataLocation.body[0].email}
         </p>
         `
-
     }
 }
 

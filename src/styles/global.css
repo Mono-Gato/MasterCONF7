@@ -29,8 +29,8 @@
 }
 body{
 	font-family: var(--Paragraph);
-	max-width: 100%;
 	min-width: 320px;
+	overflow-x: hidden;
 }
 .container {
 	max-width: 1278px;

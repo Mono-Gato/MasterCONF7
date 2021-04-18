@@ -48,6 +48,7 @@
     }
     .location__container--info{
         margin:-150px auto 0 ;
+        max-width: 350px;
     }
     .principalButton{
         font-size: 1.8rem;
@@ -92,6 +93,7 @@
     .location__container--info {
         padding: 25px 16px;
         margin: -125px auto 0;
+        max-width: 290px;
     }
     .info__title h3, .info__paragraph p{
         font-size: 1.8rem;

@@ -1,0 +1,287 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+    --Headlines: 'Krona One', sans-serif;
+    --Paragraph:  'Lato', sans-serif;
+	--principalColor: #98CA3F;
+	--secondaryColor: #121F3D;
+	--secondaryVariationColor: #03091E;
+	--grayDarkColor: #444444;
+	--grayLightColor: #FCFCFC;
+	font-size: 62.5%;
+}
+.hero {
+	background-image: url('../../../img/features/Food-min.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	border-bottom-left-radius: 120px;
+	border-bottom-right-radius: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 8px solid var(--principalColor);
+}
+
+.hero .container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 20px;
+}
+
+.hero__hashtag{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+.hero__hashtag .hashtag{
+    color: var(--grayLightColor);
+}
+.hero__title h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: var(--Headlines);
+    font-weight: 400;
+    color: var(--grayLightColor);
+}
+.hero__title hr{
+    width: 25% ;
+    margin: 10px auto;
+    height: 6px;
+    background-color: var(--grayLightColor);
+}
+.buttonContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -35px;
+}
+.principalButton{
+    background-color: var(--principalColor);
+    font-family: var(--Headlines);
+    font-size: 2rem;
+    color: var(--grayLightColor);
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-decoration: none;
+    border: 6px solid var(--grayLightColor);
+    -webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    -webkit-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+}
+.principalButton svg{
+    width: 28px;
+    height: 30px;
+    fill: var(--grayLightColor);
+    margin-right: 10px;
+}
+.principalButton:hover{
+    background-color: var(--grayLightColor);
+    color: var(--principalColor);
+    border-color: var(--principalColor);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.principalButton:hover svg{
+    fill: var(--principalColor);
+}
+.food{
+    margin-top: 50px;
+}
+.food .container{
+    padding: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+    row-gap: 50px;
+}
+.food__card{
+    background-color: var(--grayLightColor);
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    -webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    max-width:300px ;
+    padding-bottom: 25px;   
+    transition: .5s all;
+}
+.food__card:hover{
+    transform: scale(1.02);
+}
+.card__background--image{
+    border-top-right-radius: inherit;
+    height: 150px;
+    background-image: url('https://prods3.imgix.net/images/articles/2016_05/Feature-Image-Burger-Matrix-Cheese-Tangy-Grilling-Sweet-Blend-Cooking-Summer-Entertaining-Recipe.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    position: relative;
+    z-index: 0;
+}
+.card__background--color{
+    border-top-right-radius: inherit;
+    width: 100%;
+    height: 100%;
+    background-color: var(--grayDarkColor);
+    mix-blend-mode: multiply;
+    opacity: .5;
+}
+.card__title{
+    margin-top: 20px;
+    padding: 0 15px;
+}
+.card__title h3{
+    color: var(--secondaryColor);
+    font-family: var(--Headlines);
+    font-weight: 400;
+    font-size: 2.3rem;
+    text-align: center;
+}
+.card__title hr{
+    height: 4px;
+    width: 25%;
+    background-color: var(--secondaryColor);
+    border-color: var(--secondaryColor);
+    margin: 8px auto 0px;
+}
+.card__paragraph{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0px 15px;
+}
+.card__paragraph p{
+    color: var(--grayDarkColor);
+    font-weight: 300;
+    font-size: 1.8rem ;
+    text-align: center;
+}
+.card__distance h5{
+    text-align: center;
+    font-weight: 300;
+    color: var(--grayDarkColor);
+    font-size: 1.8rem;
+}
+.card__distance h5 span{
+    color: var(--principalColor);
+    font-weight: 700;
+}
+.card__button{
+    margin-top: 20px;
+}
+.card__button a{
+    width: max-content;
+    margin: auto;
+    background-color: var(--principalColor);
+    font-family: var(--Headlines);
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--grayLightColor);
+    padding: 8px 20px;
+    position: relative;
+    z-index: 1;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-decoration: none;
+    border: 6px solid var(--grayLightColor);
+    -webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.15);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    -webkit-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+
+}
+.card__button a svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    fill: var(--grayLightColor);
+}
+.card__button a:hover{
+    background-color: var(--grayLightColor);
+    color: var(--principalColor);
+    border-color: var(--principalColor);
+    -webkit-transform: scale(1.045);
+        -ms-transform: scale(1.045);
+            transform: scale(1.045);
+}
+.card__button a:hover svg{
+    fill: var(--principalColor);
+}
+.footer{
+    margin-top: 50px;
+}

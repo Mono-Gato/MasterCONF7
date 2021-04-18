@@ -469,9 +469,8 @@ main{
     gap: 30px;
 }
 .sponsors__container .sponsor{
-    width: 250px;
-    height: 50px;
-    background-color: var(--grayDarkColor);  
+    width: 200px;
+    height: 60px; 
     display: -webkit-box;  
     display: -ms-flexbox;  
     display: flex;
@@ -519,6 +518,8 @@ main{
     font-size: 2rem;
     font-weight: 700;
     color: var(--grayLightColor);
+    width: fit-content;
+    text-align: center;
 }
 .dataReminder hr{
     width: 3px;
@@ -537,6 +538,7 @@ main{
     min-height: -moz-max-content;
     min-height: max-content;
     justify-self: center;
+    align-items: center;
 }
 .dataReminder__button{
     font-family: var(--Headlines);

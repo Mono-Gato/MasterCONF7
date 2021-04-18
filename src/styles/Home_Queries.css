@@ -124,6 +124,25 @@
         max-width: 800px;
     }
 }
+@media screen and (max-width: 956px){
+    .dataReminder{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 20px 40px;
+        gap: 5px;
+    }
+    .dataReminder hr{
+        -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+                transform: rotate(90deg);
+    }
+    .dataReminder__button{
+        font-size: 1.9rem;
+        padding: 20px;
+    }
+}
 @media screen and (max-width: 856px){
     .hero, .hero__date, .hero__date--background--color, .hero__date--background--multiply{
         border-bottom-left-radius: 80px;
@@ -154,6 +173,20 @@
         padding: 0px 10px;
     }
 }
+@media screen and (max-width: 710px){
+    .hero__date--description{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 0px 20px;
+    }
+    .hero__date--description svg{
+        margin-right:0 ;
+        margin-bottom: 10px;
+    }
+}
+
 @media screen and (max-width: 600px){
     .hero .hero__logo{
         max-width: 330px;
@@ -215,39 +248,11 @@
     .codeConduct__button{
         font-size: 1.6rem;
     }
-    .dataReminder{
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        padding: 20px 40px;
-        gap: 5px;
-    }
-    .dataReminder hr{
-        -webkit-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-                transform: rotate(90deg);
-    }
-    .dataReminder__button{
-        font-size: 1.9rem;
-        padding: 20px;
-    }
 }
 @media screen and (max-width: 450px){
     .hero__text h1, .codeConduct__container p {
         font-size: 1.8rem;
         line-height: calc(1.8rem + 20%);
-    }
-    .hero__date--description{
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        padding: 0px 20px;
-    }
-    .hero__date--description svg{
-        margin-right:0 ;
-        margin-bottom: 10px;
     }
     .hero__buttonContainer{
         margin: 0px 15px;
@@ -281,6 +286,23 @@
     .hero .hero__logo{
         margin-top: 70px;
     }
+    .dataReminder__date, .dataReminder__location, .dataReminder__button{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+    }
+    .dataReminder svg{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
 @media screen and (max-width: 385px){
     .hero__text{
@@ -312,18 +334,6 @@
         border-bottom-right-radius: 30px;
         min-width: 320px;
     }
-    .dataReminder__date, .dataReminder__location, .dataReminder__button{
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        text-align: center;
-    }
+
     
 }

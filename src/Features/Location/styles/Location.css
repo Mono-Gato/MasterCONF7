@@ -210,7 +210,7 @@
     height: 2px;
     width: 25%;
     background-color: var(--grayLightColor);
-    margin: 10px auto;
+    margin: 10px auto 0px;
 }
 .info__paragraph{
     margin-top: 15px;

@@ -129,3 +129,9 @@ body{
         max-width: 1078px;
     }
 }
+
+@media screen and (max-width: 600px){
+    .header .container{
+        padding: 0 20px;
+    }
+}

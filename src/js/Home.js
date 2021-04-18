@@ -39,7 +39,7 @@ const Home = async ()=>{
         //example (apr 15th, 2021 11:50:00)
         //Format hour: (Hour:Minute:Seconds)
         const fullDateWhitoutTH =  fullDate.slice(0,6)+fullDate.slice(8)
-        console.log(fullDateWhitoutTH)
+        
         counterDownFunction(fullDateWhitoutTH);
     }
     //sponsors
@@ -98,7 +98,10 @@ function counterDownFunction (concatDate){
             const fullDateContainer = document.querySelector(".hero__date--countdown");
 
             fullDateContainer.innerHTML = `
-            <h2> Right Now </h2>
+            <div class="countdown__counter" style="margin:auto">
+                <h2> Right Now </h2>
+            </div>
+            
             `
             clearInterval(x);
         }

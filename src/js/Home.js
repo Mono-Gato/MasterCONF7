@@ -1,3 +1,4 @@
+//import getData from "./getData"
 //API analyzed with Postman
 const API = "https://masterconf.herokuapp.com/"
 
@@ -47,7 +48,6 @@ const Home = async ()=>{
     const sponsors = [...dataHome.body.sponsors]
     if ( dataHome.status === 200 ){
         for (let i = 0; i < sponsors.length; i++) {
-                       
             let div = document.createElement("div");
             div.className = "sponsor"
             div.innerHTML = `

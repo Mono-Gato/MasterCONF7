@@ -70,7 +70,7 @@ export default getData;
 #### The Deploy:
 
 
-To deploy the project was used Heroku, See al [**MasterCONF7**](https://masterconf7.herokuapp.com/ "**MasterCONF7**")
+To deploy the project was used Heroku, See at [**MasterCONF7**](https://masterconf7.herokuapp.com/ "**MasterCONF7**")
 
 The only branch used to do deploy is https://github.com/Mono-Gato/MasterCONF7/tree/deploy
 
